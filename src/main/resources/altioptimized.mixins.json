@@ -1,0 +1,16 @@
+{
+    "required": true,
+    "package": "com.altioptimized.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "minVersion": "0.8.5",
+    "mixins": [
+        "GameOptionsAccessor"
+    ],
+    "client": [
+        "VideoSettingsMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+    
+}
