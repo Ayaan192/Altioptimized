@@ -1,0 +1,62 @@
+{
+  "mappings": {
+    "com/altioptimized/mixin/ExampleMixin": {
+      "loadWorld": "Lnet/minecraft/server/MinecraftServer;method_3735()V"
+    },
+    "com/altioptimized/mixin/GameOptionsAccessor": {
+      "ao": "field_1841:Lnet/minecraft/class_7172;",
+      "attackIndicator": "field_1895:Lnet/minecraft/class_7172;",
+      "biomeBlendRadius": "field_1878:Lnet/minecraft/class_7172;",
+      "bobView": "field_1891:Lnet/minecraft/class_7172;",
+      "cloudRenderMode": "field_1814:Lnet/minecraft/class_7172;",
+      "distortionEffectScale": "field_26675:Lnet/minecraft/class_7172;",
+      "enableVsync": "field_1884:Lnet/minecraft/class_7172;",
+      "entityDistanceScaling": "field_24214:Lnet/minecraft/class_7172;",
+      "entityShadows": "field_1888:Lnet/minecraft/class_7172;",
+      "fovEffectScale": "field_26676:Lnet/minecraft/class_7172;",
+      "fullscreen": "field_1857:Lnet/minecraft/class_7172;",
+      "gamma": "field_1840:Lnet/minecraft/class_7172;",
+      "graphicsMode": "field_25444:Lnet/minecraft/class_7172;",
+      "guiScale": "field_1868:Lnet/minecraft/class_7172;",
+      "maxFps": "field_1909:Lnet/minecraft/class_7172;",
+      "mipmapLevels": "field_1856:Lnet/minecraft/class_7172;",
+      "particles": "field_1882:Lnet/minecraft/class_7172;",
+      "simulationDistance": "field_34959:Lnet/minecraft/class_7172;",
+      "viewDistance": "field_1870:Lnet/minecraft/class_7172;"
+    },
+    "com/altioptimized/mixin/VideoSettingsMixin": {
+      "<init>": "Lnet/minecraft/class_310;<init>(Lnet/minecraft/class_542;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/altioptimized/mixin/ExampleMixin": {
+        "loadWorld": "Lnet/minecraft/server/MinecraftServer;method_3735()V"
+      },
+      "com/altioptimized/mixin/GameOptionsAccessor": {
+        "ao": "field_1841:Lnet/minecraft/class_7172;",
+        "attackIndicator": "field_1895:Lnet/minecraft/class_7172;",
+        "biomeBlendRadius": "field_1878:Lnet/minecraft/class_7172;",
+        "bobView": "field_1891:Lnet/minecraft/class_7172;",
+        "cloudRenderMode": "field_1814:Lnet/minecraft/class_7172;",
+        "distortionEffectScale": "field_26675:Lnet/minecraft/class_7172;",
+        "enableVsync": "field_1884:Lnet/minecraft/class_7172;",
+        "entityDistanceScaling": "field_24214:Lnet/minecraft/class_7172;",
+        "entityShadows": "field_1888:Lnet/minecraft/class_7172;",
+        "fovEffectScale": "field_26676:Lnet/minecraft/class_7172;",
+        "fullscreen": "field_1857:Lnet/minecraft/class_7172;",
+        "gamma": "field_1840:Lnet/minecraft/class_7172;",
+        "graphicsMode": "field_25444:Lnet/minecraft/class_7172;",
+        "guiScale": "field_1868:Lnet/minecraft/class_7172;",
+        "maxFps": "field_1909:Lnet/minecraft/class_7172;",
+        "mipmapLevels": "field_1856:Lnet/minecraft/class_7172;",
+        "particles": "field_1882:Lnet/minecraft/class_7172;",
+        "simulationDistance": "field_34959:Lnet/minecraft/class_7172;",
+        "viewDistance": "field_1870:Lnet/minecraft/class_7172;"
+      },
+      "com/altioptimized/mixin/VideoSettingsMixin": {
+        "<init>": "Lnet/minecraft/class_310;<init>(Lnet/minecraft/class_542;)V"
+      }
+    }
+  }
+}

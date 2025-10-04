@@ -1,0 +1,2 @@
+v1	named	intermediary
+FIELD	com/altioptimized/mixin/VideoSettingsMixin	Lnet/minecraft/client/option/GameOptions;	options	field_1690
